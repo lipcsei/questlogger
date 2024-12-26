@@ -1,0 +1,8 @@
+## Interface: 100200
+## Title: QuestLogger
+## Notes: Saves quest properties
+## Author: Lipcsei Sándor
+## Version: 1.0
+## SavedVariables: QuestLoggerDB
+
+questlogger.lua
