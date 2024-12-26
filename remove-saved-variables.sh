@@ -1,7 +1,10 @@
 #!/bin/bash
 
+wowType="_classic_era_" # "_classic_era_" vagy "_retail_"
+accountNumber="401798421#1"
+
 # Könyvtár útvonala
-directory="/Applications/World of Warcraft/_classic_era_/WTF/Account/401798421#1/SavedVariables"
+directory="/Applications/World of Warcraft/$wowType/WTF/Account/$accountNumber/SavedVariables"
 
 # Fájlok törlése
 rm -f "$directory/QuestLogger.lua"
